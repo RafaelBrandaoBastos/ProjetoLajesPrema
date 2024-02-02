@@ -5,7 +5,7 @@ import "./style.js";
 const Image = () => {
   return (
     <>
-      <Image></Image>
+      <Input maxWidth={maxWidth} maxHeight={maxHeight} />
     </>
   );
 };

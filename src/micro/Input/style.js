@@ -10,5 +10,4 @@ export const Input = styled.input`
   line-break: ${(props) => props.lineBreak};
   max-width: ${(props) => props.maxWidth};
   max-height: ${(props) => props.maxHeight};
-
 `;
