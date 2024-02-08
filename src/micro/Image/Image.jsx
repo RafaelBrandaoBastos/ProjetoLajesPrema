@@ -1,13 +1,13 @@
-import React, { } from "react";
-import {ImageComponent} from "./style.js";
+import React from "react";
+import { Image } from "./style.js";
 import "./style.js";
-  
-  const Image = () => {
-    return (
-      <>
-      </>
-    );
-  };
-  
+
+const Image = () => {
+  return (
+    <>
+      <Input maxWidth={maxWidth} maxHeight={maxHeight} />
+    </>
+  );
+};
+
 export default Image;
-  
