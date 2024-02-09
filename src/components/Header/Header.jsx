@@ -1,7 +1,8 @@
 import React from "react";
-import { HeaderComponent, HeaderOptions } from "./style.js";
+import { HeaderComponent, HeaderOptions, HeaderInfo } from "./style.js";
 import Text from "../../micro/Text/Text.jsx";
 import Image from "../../micro/Image/Image.jsx";
+
 const Header = () => {
   return (
     <>
@@ -13,7 +14,6 @@ const Header = () => {
           <Text content="VER ROTAS" size="20" font="Roboto" weight="800" />
           <Text content="CONTATO" size="20" font="Roboto" weight="800" />
         </HeaderOptions>
-        <Image />
       </HeaderComponent>
     </>
   );

@@ -1,11 +1,16 @@
 import React from "react";
-import { Image } from "./style.js";
+import { ImageComponent } from "./style.js";
 import "./style.js";
 
-const Image = () => {
+const Image = (props) => {
   return (
     <>
-      <Input maxWidth={maxWidth} maxHeight={maxHeight} />
+      <ImageComponent
+        src={props.content}
+        maxWidth={props.maxWidth}
+        maxHeight={props.maxHeight}
+        width={props.width}
+      />
     </>
   );
 };
