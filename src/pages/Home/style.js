@@ -4,5 +4,6 @@ export const Page = styled.div`
   width: 100%;
   height: auto;
   display: flex;
-  background-color: white;
+  align-items: flex-start;
+  justify-content: center;
 `;
