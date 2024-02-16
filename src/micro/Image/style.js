@@ -5,4 +5,6 @@ export const ImageComponent = styled.img`
     max-height: ${(props) => props.maxHeight}%;
     width: ${(props) => props.width};
     height: ${(props) => props.height};
+    outline-style: solid;
+    outline-color: red;
 `;

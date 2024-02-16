@@ -7,7 +7,7 @@ import BannerImage from "../../assets/BannerImage.jpg";
 const Banner = () => {
   return (
     <BannerComponent>
-      <Image content={BannerImage} width="50%" />
+      <Image width="50%" />
     </BannerComponent>
   );
 };

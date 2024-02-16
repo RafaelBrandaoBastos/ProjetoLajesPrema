@@ -1,20 +1,20 @@
 import React from "react";
-import { TextComponent } from "./style.js";
+import { TitleComponent } from "./style.js";
 import "./style.js";
 
-const Text = (props) => {
+const Title = (props) => {
   return (
     <>
-      <TextComponent
+      <TitleComponent
         size={props.size}
         font={props.font}
         width={props.width}
         maxWidth={props.maxWidth}
       >
         {props.content}
-      </TextComponent>
+      </TitleComponent>
     </>
   );
 };
 
-export default Text;
+export default Title;
