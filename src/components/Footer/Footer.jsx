@@ -1,13 +1,9 @@
-import React, { } from "react";
-import {InputComponent} from "./style.js";
+import React from "react";
+import { FooterComponent } from "./style.js";
 import "./style.js";
-  
-  const Input = () => {
-    return (
-      <>
-      </>
-    );
-  };
-  
-export default Input;
-  
+
+const Footer = () => {
+  return <FooterComponent></FooterComponent>;
+};
+
+export default Footer;

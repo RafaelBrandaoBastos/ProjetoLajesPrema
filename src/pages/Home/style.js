@@ -8,4 +8,5 @@ export const Page = styled.div`
   align-items: flex-start;
   justify-content: center;
   max-width: 1500px;
+
 `;

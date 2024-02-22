@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AboutComponent = styled.div`
+export const GalleryComponent = styled.div`
     width: 100%;
     height: auto;
     display: flex;
@@ -9,18 +9,17 @@ export const AboutComponent = styled.div`
     justify-content: center;
     align-items: center;
     outline-style: solid;
-    outline-color: blue;
-    max-width: 1500px;
+    outline-color: red;
     margin: 25px 0px 0px 0px;
 `;
-export const AboutContainer = styled.div`
+export const GalleryContainer = styled.div`
     width: 100%;
-    height: auto;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     outline-style: solid;
-    outline-color: yellow;
+    outline-color: red;
     flex-direction: column;
 `;

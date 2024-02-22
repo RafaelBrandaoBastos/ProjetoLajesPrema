@@ -16,4 +16,5 @@ export const TextComponent = styled.p`
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    text-align: ${(props) => props.align};
 `;

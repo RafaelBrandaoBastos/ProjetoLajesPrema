@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerComponent = styled.div`
     width: 100%;
-    height: 50%;
+    height: 350px;
     display: flex;
     justify-content: flex-end;
     outline-style: solid;

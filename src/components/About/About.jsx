@@ -15,7 +15,6 @@ const About = () => {
           font="Roboto"
           maxWidth="50%"
         />
-        <Image width="50%" />
       </AboutContainer>
 
       <AboutContainer>
@@ -25,7 +24,6 @@ const About = () => {
           font="Roboto"
           maxWidth="50%"
         />
-        <Image width="50%" />
       </AboutContainer>
 
       <AboutContainer>
@@ -35,7 +33,6 @@ const About = () => {
           font="Roboto"
           maxWidth="50%"
         />
-        <Image width="50%" />
       </AboutContainer>
     </AboutComponent>
   );

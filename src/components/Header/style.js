@@ -10,6 +10,7 @@ export const HeaderComponent = styled.div`
   justify-content: space-between;
   outline-style: solid;
   outline-color: orange;
+  background-color: orange;
   max-width: 1500px;
 `;
 export const HeaderOptions = styled.div`
@@ -19,7 +20,18 @@ export const HeaderOptions = styled.div`
   outline-style: solid;
   outline-color: black;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: auto;
   width: 800px;
+`;
+
+export const ContactOptions = styled.div`
+  display: flex;
+  width: auto;
+  height: 50px;
+  outline-style: solid;
+  outline-color: black;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
 `;

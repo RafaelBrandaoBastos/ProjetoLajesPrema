@@ -8,6 +8,7 @@ export const ReviewsComponent = styled.div`
     justify-content: center;
     align-items: center;
     max-width: 1500px;
+    margin: 25px 0px 0px 0px;
 `;
 export const ReviewsContainer = styled.div`
     width: 100%;
