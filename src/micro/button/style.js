@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+export const ButtonComponent = styled.button`
     max-width: ${(props) => props.maxWidth};
     max-height: ${(props) => props.maxHeight};
     color: ${(props) => props.textColor};
@@ -8,4 +8,10 @@ export const Button = styled.button`
     font-family: ${(props) => props.font};
     font-size: ${(props) => props.size}px;
     font-style: ${(props) => props.style};
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
 `;

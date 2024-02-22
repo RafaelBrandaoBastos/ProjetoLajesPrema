@@ -1,21 +1,20 @@
 import React from "react";
-import { Button } from "./style.js";
-import "./style.js";
+import { ButtonComponent } from "./style.js";
 
-const Button = () => {
+const Button = (props) => {
   return (
     <>
-      <Button
-        maxWidth={maxWidth}
-        maxHeight={maxHeight}
-        textColor={textColor}
-        backgroundColor={backgroundColor}
-        font-family={maxWidth}
-        font-size={font - size}
-        font-style={font - style}
+      <ButtonComponent
+        maxWidth={props.maxWidth}
+        maxHeight={props.maxHeight}
+        textColor={props.textColor}
+        backgroundColor={props.backgroundColor}
+        font-family={props.maxWidth}
+        font-size={props.fontSize}
+        font-style={props.fontStyle}
       >
-        {content}
-      </Button>
+        {props.content}
+      </ButtonComponent>
     </>
   );
 };

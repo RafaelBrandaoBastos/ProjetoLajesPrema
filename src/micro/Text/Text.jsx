@@ -10,6 +10,7 @@ const Text = (props) => {
         font={props.font}
         width={props.width}
         maxWidth={props.maxWidth}
+        color={props.color}
       >
         {props.content}
       </TextComponent>
